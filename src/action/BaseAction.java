@@ -1,4 +1,4 @@
-package action;
+package src.action;
 
 import java.util.Map;
 
@@ -16,6 +16,7 @@ public class BaseAction extends ActionSupport implements SessionAware{
 
 	@Override
 	public void setSession(Map<String, Object> arg0) {
+		// TODO Auto-generated method stub
 		
 	}
 }
